@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35825.156 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gitscuit API", "Gitscuit API\Gitscuit API.csproj", "{0821F4C3-6660-40C8-B19F-2876E9AC1EA1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0821F4C3-6660-40C8-B19F-2876E9AC1EA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0821F4C3-6660-40C8-B19F-2876E9AC1EA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0821F4C3-6660-40C8-B19F-2876E9AC1EA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0821F4C3-6660-40C8-B19F-2876E9AC1EA1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AB7993A6-C001-4CDB-BE21-B922225F4BF1}
+	EndGlobalSection
+EndGlobal
