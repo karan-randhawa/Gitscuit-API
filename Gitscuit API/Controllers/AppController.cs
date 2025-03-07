@@ -1,15 +1,23 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using GitscuitAPI.Services;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
-namespace Gitscuit_API.Controllers
+namespace GitscuitAPI.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
     public class AppController : ControllerBase
     {
+        private AppService appService { get; set; }
+
+        public AppController(AppService appService)
+        {
+            this.appService = appService;
+        }
+
         public IActionResult Get()
         {
-            return Ok("Gitscuit API is running.");
+            return Ok(appService.Connect());
         }
     }
 }
